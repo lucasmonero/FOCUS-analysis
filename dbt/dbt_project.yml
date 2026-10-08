@@ -1,0 +1,13 @@
+name: focus
+version: "1.0"
+profile: focus
+model-paths: [models]
+macro-paths: [macros]
+test-paths: [tests]
+# As variaveis (indicadores, horizontes, defasagem) vem de configuracao.py via
+# `python -m focus.pipeline`, a unica fonte de verdade.
+models:
+  focus:
+    +materialized: table
+    staging: {+materialized: view}
+    features: {+materialized: view}

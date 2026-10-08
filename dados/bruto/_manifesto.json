@@ -1,0 +1,328 @@
+{
+  "focus_ipca_mensal": {
+    "fonte": "Olinda OData (mensal / IPCA)",
+    "linhas": 99604,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo",
+      "num_respondentes",
+      "base_calculo"
+    ],
+    "coletado_em": "2026-10-08T10:08:07.357479+00:00",
+    "hash_conteudo": "e7eec48d2c0bad4a",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_selic": {
+    "fonte": "Olinda OData (Selic)",
+    "linhas": 65262,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "reuniao",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo",
+      "num_respondentes",
+      "base_calculo"
+    ],
+    "coletado_em": "2026-10-08T10:10:48.625785+00:00",
+    "hash_conteudo": "e193cf64779d9cde",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_top5_selic": {
+    "fonte": "Olinda OData (Selic Top 5)",
+    "linhas": 65225,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "reuniao",
+      "tipo_calculo",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "coef_variacao",
+      "minimo",
+      "maximo"
+    ],
+    "coletado_em": "2026-10-08T10:11:06.228858+00:00",
+    "hash_conteudo": "7759578423ce7c2b",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "sgs_ipca_mensal": {
+    "fonte": "SGS/BCB (codigo 433)",
+    "linhas": 272,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:11:10.076047+00:00",
+    "hash_conteudo": "24a23bc1f2751df4",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-08-01 00:00:00"
+  },
+  "sgs_meta_selic": {
+    "fonte": "SGS/BCB (codigo 432)",
+    "linhas": 8317,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:13:52.568801+00:00",
+    "hash_conteudo": "de52992277af8adf",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-10-08 00:00:00"
+  },
+  "sgs_selic_acum_mes_anualizada": {
+    "fonte": "SGS/BCB (codigo 4189)",
+    "linhas": 274,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:13:55.109000+00:00",
+    "hash_conteudo": "ebcf4d93b87e19e5",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-10-01 00:00:00"
+  },
+  "sgs_ibcbr": {
+    "fonte": "SGS/BCB (codigo 24364)",
+    "linhas": 271,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:13:57.703616+00:00",
+    "hash_conteudo": "7c0d830b9f29da27",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-07-01 00:00:00"
+  },
+  "sgs_icbr": {
+    "fonte": "SGS/BCB (codigo 27574)",
+    "linhas": 273,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:14:00.107288+00:00",
+    "hash_conteudo": "dfba7225e43b365e",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-09-01 00:00:00"
+  },
+  "sgs_meta_inflacao": {
+    "fonte": "SGS/BCB (codigo 13521)",
+    "linhas": 23,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:14:02.105944+00:00",
+    "hash_conteudo": "54e31a150fe3a75f",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-01-01 00:00:00"
+  },
+  "mercado_usdbrl": {
+    "fonte": "yfinance (USDBRL=X)",
+    "linhas": 5512,
+    "colunas": [
+      "data",
+      "fechamento"
+    ],
+    "coletado_em": "2026-10-08T10:14:11.598854+00:00",
+    "hash_conteudo": "a58b47392b30784b",
+    "data_minima": "2003-12-01 00:00:00",
+    "data_maxima": "2026-10-08 00:00:00"
+  },
+  "mercado_tnx": {
+    "fonte": "yfinance (^TNX)",
+    "linhas": 5973,
+    "colunas": [
+      "data",
+      "fechamento"
+    ],
+    "coletado_em": "2026-10-08T10:14:11.989834+00:00",
+    "hash_conteudo": "234a7e4be1b1ffdc",
+    "data_minima": "2003-01-02 00:00:00",
+    "data_maxima": "2026-10-07 00:00:00"
+  },
+  "focus_ipca_top5_mensal": {
+    "fonte": "Olinda OData (top5 mensal / IPCA)",
+    "linhas": 98815,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "tipo_calculo",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo"
+    ],
+    "coletado_em": "2026-10-08T10:08:38.293037+00:00",
+    "hash_conteudo": "2b12ffffbc6a7a17",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_cambio_mensal": {
+    "fonte": "Olinda OData (mensal / Câmbio)",
+    "linhas": 98161,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo",
+      "num_respondentes",
+      "base_calculo"
+    ],
+    "coletado_em": "2026-10-08T10:08:57.350613+00:00",
+    "hash_conteudo": "aaa2a43f456c3b1d",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_cambio_top5_mensal": {
+    "fonte": "Olinda OData (top5 mensal / Câmbio)",
+    "linhas": 69553,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "tipo_calculo",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo"
+    ],
+    "coletado_em": "2026-10-08T10:09:29.230082+00:00",
+    "hash_conteudo": "8422c5a5f98ff1a8",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2022-02-08 00:00:00"
+  },
+  "focus_igpm_mensal": {
+    "fonte": "Olinda OData (mensal / IGP-M)",
+    "linhas": 89527,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo",
+      "num_respondentes",
+      "base_calculo"
+    ],
+    "coletado_em": "2026-10-08T10:09:45.487483+00:00",
+    "hash_conteudo": "a39f099938ccfb80",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_igpm_top5_mensal": {
+    "fonte": "Olinda OData (top5 mensal / IGP-M)",
+    "linhas": 67771,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "tipo_calculo",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo"
+    ],
+    "coletado_em": "2026-10-08T10:10:12.025241+00:00",
+    "hash_conteudo": "62ceaa9a1d0518fb",
+    "data_minima": "2006-01-02 00:00:00",
+    "data_maxima": "2022-02-08 00:00:00"
+  },
+  "focus_desocupacao_mensal": {
+    "fonte": "Olinda OData (mensal / Taxa de desocupação)",
+    "linhas": 22842,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo",
+      "num_respondentes",
+      "base_calculo"
+    ],
+    "coletado_em": "2026-10-08T10:10:24.009136+00:00",
+    "hash_conteudo": "cd3b8299331bb83c",
+    "data_minima": "2021-09-14 00:00:00",
+    "data_maxima": "2026-10-02 00:00:00"
+  },
+  "focus_desocupacao_top5_mensal": {
+    "fonte": "Olinda OData (top5 mensal / Taxa de desocupação)",
+    "linhas": 0,
+    "colunas": [
+      "indicador",
+      "data_pesquisa",
+      "referencia",
+      "tipo_calculo",
+      "media",
+      "mediana",
+      "desvio_padrao",
+      "minimo",
+      "maximo"
+    ],
+    "coletado_em": "2026-10-08T10:10:35.007484+00:00",
+    "hash_conteudo": null
+  },
+  "sgs_igpm": {
+    "fonte": "SGS/BCB (codigo 189)",
+    "linhas": 273,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:14:04.771394+00:00",
+    "hash_conteudo": "a63a6bd11b85115a",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-09-01 00:00:00"
+  },
+  "sgs_cambio": {
+    "fonte": "SGS/BCB (codigo 3698)",
+    "linhas": 273,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:14:07.246764+00:00",
+    "hash_conteudo": "8025ada5f2f388e6",
+    "data_minima": "2004-01-01 00:00:00",
+    "data_maxima": "2026-09-01 00:00:00"
+  },
+  "sgs_desocupacao": {
+    "fonte": "SGS/BCB (codigo 24369)",
+    "linhas": 174,
+    "colunas": [
+      "data",
+      "valor"
+    ],
+    "coletado_em": "2026-10-08T10:14:09.651686+00:00",
+    "hash_conteudo": "de1c2688781808ce",
+    "data_minima": "2012-03-01 00:00:00",
+    "data_maxima": "2026-08-01 00:00:00"
+  }
+}

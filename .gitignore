@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.claude/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Regenerados pelo pipeline; so dados/bruto e dados/referencia sao versionados
+dados/intermediario/
+dados/processado/
+dbt/*.duckdb
+dbt/target/
+dbt/logs/
+site/

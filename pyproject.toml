@@ -1,0 +1,39 @@
+[project]
+name = "focus-analise"
+version = "0.1.0"
+description = "Analise de erros sistematicos do consenso Focus/BCB via ML e SHAP"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.26",
+    "pyarrow>=14.0",
+    "requests>=2.31",
+    "python-bcb>=0.4.0",
+    "scikit-learn>=1.4",
+    "xgboost>=2.0",
+    "shap>=0.44",
+    "statsmodels>=0.14",
+    "yfinance>=0.2",
+    "duckdb>=1.1",
+    "dbt-duckdb>=1.9",
+    "plotly>=5.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.4"]
+notebooks = ["jupyter>=1.0", "nbconvert>=7.0", "matplotlib>=3.8", "seaborn>=0.13"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["F"]
+
+[tool.pytest.ini_options]
+testpaths = ["testes"]
+pythonpath = ["src"]
+# Restringe a coleta a `test_*`: sem isso, funcoes do dominio em portugues
+# como `teste_kupiec` (que comecam com "test") seriam coletadas como testes
+# ao serem importadas num modulo de teste, e falhariam pedindo "fixtures".
+python_functions = ["test_*"]

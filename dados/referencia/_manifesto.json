@@ -1,0 +1,19 @@
+{
+  "calendario_copom": {
+    "fonte": "https://www.bcb.gov.br/api/servico/sitebcb/historicotaxasjuros",
+    "linhas": 166,
+    "colunas": [
+      "rotulo_reuniao",
+      "numero_reuniao",
+      "data_reuniao",
+      "meta_selic",
+      "vies",
+      "ano",
+      "rank_no_ano"
+    ],
+    "coletado_em": "2026-10-08T10:07:44.362212+00:00",
+    "hash_conteudo": "c9a25d363156ed40",
+    "data_minima": "2006-01-18 00:00:00",
+    "data_maxima": "2026-09-16 00:00:00"
+  }
+}
