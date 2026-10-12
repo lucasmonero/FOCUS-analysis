@@ -14,7 +14,7 @@
       "num_respondentes",
       "base_calculo"
     ],
-    "coletado_em": "2026-10-08T10:08:07.357479+00:00",
+    "coletado_em": "2026-10-12T20:59:13.020990+00:00",
     "hash_conteudo": "e7eec48d2c0bad4a",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -34,7 +34,7 @@
       "num_respondentes",
       "base_calculo"
     ],
-    "coletado_em": "2026-10-08T10:10:48.625785+00:00",
+    "coletado_em": "2026-10-12T21:01:57.063391+00:00",
     "hash_conteudo": "e193cf64779d9cde",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -54,34 +54,34 @@
       "minimo",
       "maximo"
     ],
-    "coletado_em": "2026-10-08T10:11:06.228858+00:00",
+    "coletado_em": "2026-10-12T21:02:15.774521+00:00",
     "hash_conteudo": "7759578423ce7c2b",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
   },
   "sgs_ipca_mensal": {
     "fonte": "SGS/BCB (codigo 433)",
-    "linhas": 272,
+    "linhas": 273,
     "colunas": [
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:11:10.076047+00:00",
-    "hash_conteudo": "24a23bc1f2751df4",
+    "coletado_em": "2026-10-12T21:02:21.566201+00:00",
+    "hash_conteudo": "8dc2a6fbdd388d00",
     "data_minima": "2004-01-01 00:00:00",
-    "data_maxima": "2026-08-01 00:00:00"
+    "data_maxima": "2026-09-01 00:00:00"
   },
   "sgs_meta_selic": {
     "fonte": "SGS/BCB (codigo 432)",
-    "linhas": 8317,
+    "linhas": 8321,
     "colunas": [
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:13:52.568801+00:00",
-    "hash_conteudo": "de52992277af8adf",
+    "coletado_em": "2026-10-12T21:02:24.206268+00:00",
+    "hash_conteudo": "55f0531a05470216",
     "data_minima": "2004-01-01 00:00:00",
-    "data_maxima": "2026-10-08 00:00:00"
+    "data_maxima": "2026-10-12 00:00:00"
   },
   "sgs_selic_acum_mes_anualizada": {
     "fonte": "SGS/BCB (codigo 4189)",
@@ -90,7 +90,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:13:55.109000+00:00",
+    "coletado_em": "2026-10-12T21:02:45.790699+00:00",
     "hash_conteudo": "ebcf4d93b87e19e5",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-10-01 00:00:00"
@@ -102,7 +102,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:13:57.703616+00:00",
+    "coletado_em": "2026-10-12T21:02:48.104320+00:00",
     "hash_conteudo": "7c0d830b9f29da27",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-07-01 00:00:00"
@@ -114,7 +114,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:14:00.107288+00:00",
+    "coletado_em": "2026-10-12T21:02:54.901058+00:00",
     "hash_conteudo": "dfba7225e43b365e",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-09-01 00:00:00"
@@ -126,34 +126,34 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:14:02.105944+00:00",
+    "coletado_em": "2026-10-12T21:02:56.993638+00:00",
     "hash_conteudo": "54e31a150fe3a75f",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-01-01 00:00:00"
   },
   "mercado_usdbrl": {
     "fonte": "yfinance (USDBRL=X)",
-    "linhas": 5512,
+    "linhas": 5514,
     "colunas": [
       "data",
       "fechamento"
     ],
-    "coletado_em": "2026-10-08T10:14:11.598854+00:00",
-    "hash_conteudo": "a58b47392b30784b",
+    "coletado_em": "2026-10-12T21:03:05.940130+00:00",
+    "hash_conteudo": "4150474aca02eff0",
     "data_minima": "2003-12-01 00:00:00",
-    "data_maxima": "2026-10-08 00:00:00"
+    "data_maxima": "2026-10-13 00:00:00"
   },
   "mercado_tnx": {
     "fonte": "yfinance (^TNX)",
-    "linhas": 5973,
+    "linhas": 5976,
     "colunas": [
       "data",
       "fechamento"
     ],
-    "coletado_em": "2026-10-08T10:14:11.989834+00:00",
-    "hash_conteudo": "234a7e4be1b1ffdc",
+    "coletado_em": "2026-10-12T21:03:06.251140+00:00",
+    "hash_conteudo": "1ad9b5bb1073f655",
     "data_minima": "2003-01-02 00:00:00",
-    "data_maxima": "2026-10-07 00:00:00"
+    "data_maxima": "2026-10-12 00:00:00"
   },
   "focus_ipca_top5_mensal": {
     "fonte": "Olinda OData (top5 mensal / IPCA)",
@@ -169,7 +169,7 @@
       "minimo",
       "maximo"
     ],
-    "coletado_em": "2026-10-08T10:08:38.293037+00:00",
+    "coletado_em": "2026-10-12T20:59:46.112652+00:00",
     "hash_conteudo": "2b12ffffbc6a7a17",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -189,7 +189,7 @@
       "num_respondentes",
       "base_calculo"
     ],
-    "coletado_em": "2026-10-08T10:08:57.350613+00:00",
+    "coletado_em": "2026-10-12T21:00:06.519097+00:00",
     "hash_conteudo": "aaa2a43f456c3b1d",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -208,7 +208,7 @@
       "minimo",
       "maximo"
     ],
-    "coletado_em": "2026-10-08T10:09:29.230082+00:00",
+    "coletado_em": "2026-10-12T21:00:38.336461+00:00",
     "hash_conteudo": "8422c5a5f98ff1a8",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2022-02-08 00:00:00"
@@ -228,7 +228,7 @@
       "num_respondentes",
       "base_calculo"
     ],
-    "coletado_em": "2026-10-08T10:09:45.487483+00:00",
+    "coletado_em": "2026-10-12T21:00:53.281747+00:00",
     "hash_conteudo": "a39f099938ccfb80",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -247,7 +247,7 @@
       "minimo",
       "maximo"
     ],
-    "coletado_em": "2026-10-08T10:10:12.025241+00:00",
+    "coletado_em": "2026-10-12T21:01:22.820330+00:00",
     "hash_conteudo": "62ceaa9a1d0518fb",
     "data_minima": "2006-01-02 00:00:00",
     "data_maxima": "2022-02-08 00:00:00"
@@ -267,7 +267,7 @@
       "num_respondentes",
       "base_calculo"
     ],
-    "coletado_em": "2026-10-08T10:10:24.009136+00:00",
+    "coletado_em": "2026-10-12T21:01:34.300002+00:00",
     "hash_conteudo": "cd3b8299331bb83c",
     "data_minima": "2021-09-14 00:00:00",
     "data_maxima": "2026-10-02 00:00:00"
@@ -286,7 +286,7 @@
       "minimo",
       "maximo"
     ],
-    "coletado_em": "2026-10-08T10:10:35.007484+00:00",
+    "coletado_em": "2026-10-12T21:01:43.786387+00:00",
     "hash_conteudo": null
   },
   "sgs_igpm": {
@@ -296,7 +296,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:14:04.771394+00:00",
+    "coletado_em": "2026-10-12T21:02:59.621754+00:00",
     "hash_conteudo": "a63a6bd11b85115a",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-09-01 00:00:00"
@@ -308,7 +308,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:14:07.246764+00:00",
+    "coletado_em": "2026-10-12T21:03:02.704325+00:00",
     "hash_conteudo": "8025ada5f2f388e6",
     "data_minima": "2004-01-01 00:00:00",
     "data_maxima": "2026-09-01 00:00:00"
@@ -320,7 +320,7 @@
       "data",
       "valor"
     ],
-    "coletado_em": "2026-10-08T10:14:09.651686+00:00",
+    "coletado_em": "2026-10-12T21:03:05.180496+00:00",
     "hash_conteudo": "de1c2688781808ce",
     "data_minima": "2012-03-01 00:00:00",
     "data_maxima": "2026-08-01 00:00:00"
